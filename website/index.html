@@ -63,9 +63,10 @@
         </div>
 
         <button class="info_more-btn" data-sidebar-btn>
-          <span>Show Contacts</span>
+          <!-- <span>Show</span> -->
+          <p>Show</p>
 
-          <ion-icon name="chevron-down"></ion-icon>
+          <!-- <ion-icon name="chevron-down"></ion-icon> -->
         </button>
 
       </div>
@@ -110,7 +111,7 @@
             <div class="contact-info">
               <p class="contact-title">Email</p>
 
-              <a href="mailto:richard@example.com" class="contact-link">anantharaj6223@gmail.com</a>
+              <a href="anantharaj6223@gmail.com" class="contact-link">anantharaj6223@gmail.com</a>
             </div>
 
           </li>
@@ -225,7 +226,8 @@
 
         <section class="about-text">
           <p>
-            I'm a passionate Flutter developer from India, with a strong focus on building mobile apps that are clean,
+            I'm a passionate Flutter developer from Tamilnadu, India, with a strong focus on building mobile apps that
+            are clean,
             fast, and user-friendly. I enjoy turning ideas into working products—whether it's a learning app, a utility
             tool, or a business solution.
           </p>
@@ -373,14 +375,10 @@
           <h2 class="h2 article-title">Resume</h2>
         </header>
 
-
-
-
-
-
-
-        <embed src="assets\ANANTHARAJ RESUME 2.pdf#navpanes=0" type="application/pdf" width="100%" height="800px" />
-
+        <embed src="assets\ANANTHARAJ RESUME.pdf#navpanes=0" type="application/pdf" width="100%" height="800px" />
+        <a href="assets/ANANTHARAJ RESUME.pdf" download>
+          <img src="assets\icons\download (1).png" alt="Download" height="60" style="margin-top: 20px;">
+        </a>
 
         <!-- <section class="skill">
 
@@ -462,7 +460,26 @@
 
         <section class="projects">
 
-          <ul class="filter-list">
+          <ul class="social-listX"
+            style="list-style: none; padding: 0; margin: 0; display: flex; gap: 10px; justify-content: center; align-items: center; width: 100%;">
+            <li class="social-itemX">
+              <a href="https://play.google.com/store/apps/developer?id=neolex" class="social-linkX" target="_blank">
+                <img src="assets/icons/playstore (1).png" alt="Playstore"
+                  style="width: 100px; height: auto; display: block;"
+                  onload="this.style.width = window.innerWidth <= 768 ? '40px' : '100px'; window.addEventListener('resize', () => { this.style.width = window.innerWidth <= 768 ? '40px' : '100px'; });">
+              </a>
+            </li>
+
+            <li class="social-itemX">
+              <a href="https://github.com/ananth-j" class="social-linkX" target="_blank">
+                <img src="assets/icons/github.png" alt="Github" style="width: 100px; height: auto; display: block;"
+                  onload="this.style.width = window.innerWidth <= 768 ? '40px' : '100px'; window.addEventListener('resize', () => { this.style.width = window.innerWidth <= 768 ? '40px' : '100px'; });">
+              </a>
+            </li>
+          </ul>
+
+
+          <!-- <ul class="filter-list">
 
             <li class="filter-item">
               <button class="active" data-filter-btn>All</button>
@@ -480,21 +497,23 @@
               <button data-filter-btn>Web development</button>
             </li>
 
-          </ul>
+          </ul> -->
 
           <div class="filter-select-box">
 
-            <button class="filter-select" data-select>
+            <!-- <button class="filter-select" data-select> -->
+            <button class="filter-selectDummy" data-select>
 
-              <div class="select-value" data-selecct-value>Select category</div>
 
-              <div class="select-icon">
+              <!-- <div class="select-value" data-selecct-value>Select category</div> -->
+
+              <!-- <div class="select-icon">
                 <ion-icon name="chevron-down"></ion-icon>
-              </div>
+              </div> -->
 
             </button>
 
-            <ul class="select-list">
+            <!-- <ul class="select-list">
 
               <li class="select-item">
                 <button data-select-item>All</button>
@@ -512,11 +531,11 @@
                 <button data-select-item>Web development</button>
               </li>
 
-            </ul>
+            </ul> -->
 
           </div>
 
-          <ul class="project-list">
+          <!-- <ul class="project-list">
 
             <li class="project-item  active" data-filter-item data-category="web development">
               <a href="#">
@@ -680,7 +699,7 @@
               </a>
             </li>
 
-          </ul>
+          </ul> -->
 
         </section>
 
